@@ -1,0 +1,262 @@
+body{
+    padding-top: 50px;
+    height: 4000px;
+}
+:root{
+    --mainbackground-color:#f3f3f3;
+    --main-color :#E41B17 ;
+}
+/* .navbar{
+    min-height: 70px;
+}
+/* Active Link */
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus{
+background-color: var(--main-color);
+}
+/* Navbar Link */
+/* .navbar-inverse .navbar-nav > li.active:hover a{
+    color: #fff;
+} */
+.navbar-inverse .navbar-nav > li > a{
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-brand{
+    color: #BBB;
+    line-height: 40px;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-brand span{
+    color: var(--main-color);
+}
+.dropdown-menu{
+ background-color:   #333;
+ min-width: 200px;
+
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 6px 20px;
+    transition: .5s;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    background-color: var(--main-color);
+    color: #fff;
+    padding-left: 30px;
+}
+.dropdown-menu{
+    border-top: 3px solid var(--main-color);
+}
+.dropdown-menu .divider{
+    background-color: #7f2625;
+}
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+/* Navbar Toggle */
+.navbar-toggle {
+    margin-top: 17px;
+}
+
+/* Start carousel */
+.carousel-caption{
+    background: rgba(0, 0, 0, .7);
+    margin-bottom: 20px;
+    padding: 15px;
+    
+}
+
+.carousel-indicators .active
+{   height: 17px;
+    width: 17px;
+    background-color: var(--main-color);
+}
+.carousel-indicators{
+    bottom: -10px;
+}
+
+.carousel-indicators li{
+height: 15px;
+width: 15px;
+border: 1px solid #3d3b3b;
+
+
+} 
+
+/* End carousel */
+/* Start Section About */
+.about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about .lead{
+    color: #888;
+    /* font-size: 25px; */
+    margin-top: 15px;
+}
+.about h1 span,
+.about h3 span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+/* End Section About */
+
+/* Start Section Features  */
+.features{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--mainbackground-color);
+}
+.features h1{
+    margin-bottom: 50px;
+    color: #666;
+}
+.features p{
+    line-height: 2em;
+}
+.features .feat{
+    margin-bottom: 30px;
+}
+.features .feat span.glyphicon{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #888;
+}
+/* End Section Features  */
+
+
+/* Start Testimonials */
+.testimonials{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials .lead{
+    line-height: 2em;
+}
+.testimonials .carousel-inner{
+min-height: 160px;
+}
+.testimonials span{
+color: var(--main-color);
+font-weight: bold;
+font-size: 20px;
+}
+.testimonials .carousel-indicators{
+    width: 100%;
+    position: static;
+    margin-left: auto; 
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li{
+    height: 60px;
+    width: 60px;
+    text-indent: 0;
+    opacity: .5;
+    overflow: hidden;
+    border: 2px solid var(--main-color);
+    margin: 5px;
+    transition: .5s;
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+}
+.testimonials .carousel-indicators li img{
+max-width: 100%;
+}
+/* End Testimonials */
+
+/* Start Section Our Price  */
+.Price-table{
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #f3f3f3;
+}
+.Price-table h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Price-table .price-box{
+    background-color: #fff;
+    border: 1px solid;
+    padding: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.Price-table .price-box h2{
+    margin: 5px 0 15px;
+    font-weight: bold;
+}
+.Price-table .price-box p{
+    font-size: 33px;
+    font-weight: bold;
+    color: #666;
+    width: 110px;
+    height: 110px;
+    background-color: var(--mainbackground-color);
+    border-radius: 50%;
+    line-height: 110px;
+    -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+    -o-transition-duration: .7s;
+   transition-duration: .7s;
+   border: 2px solid #fff;
+}
+.Price-table .price-box:hover p{
+    transform: scale(1.2,1.2) rotate(360deg);
+    border: 2px solid #c7c4c4;
+}
+.Price-table .price-box ul{
+  line-height: 250%;  
+  font-size: 18px;
+}
+.Price-table .price-box a{
+    margin-bottom: 5px;
+}
+/* End Section Our Price  */
+/* Start Section Out Team */
+.our-team{
+    background-image: url("../imgs/back1.jpg");
+    /* background-image: url("../imgs/J5LR.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -20px;
+}
+.our-team .team h1{
+    margin-bottom: 60px;
+}
+.our-team .team{
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 600px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team .team .person{
+    margin-bottom: 50px;
+}
+.our-team .team img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+/* End Section Out Team */
+
+
+
+
+
