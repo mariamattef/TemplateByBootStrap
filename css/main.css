@@ -229,18 +229,11 @@ max-width: 100%;
 /* End Section Our Price  */
 /* Start Section Out Team */
 .our-team{
-    background-image: url("../imgs/back1.jpg");
+    background: url("../imgs/back1.jpg") no-repeat center center fixed;
     /* background-image: url("../imgs/J5LR.gif"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: -20px;
-}
-.our-team .team h1{
-    margin-bottom: 60px;
 }
 .our-team .team{
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .87);
     min-height: 600px;
     color: #fff;
     padding-top: 40px;
@@ -248,6 +241,9 @@ max-width: 100%;
 }
 .our-team .team .person{
     margin-bottom: 50px;
+}
+.our-team .team h1{
+    margin-bottom: 60px;
 }
 .our-team .team img{
     width: 200px;
